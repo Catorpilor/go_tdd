@@ -3,7 +3,7 @@ package main
 import "io/ioutil"
 
 func GenerateQRCode(code string) []byte {
-	return nil
+	return []byte{0xff}
 }
 
 func main() {
